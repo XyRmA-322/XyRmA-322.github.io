@@ -1,0 +1,171 @@
+@media (max-width: 1200px)
+	.menu 
+		&_link
+			font-size: 13px
+		&_item
+			padding-right: 20px
+	.subheader
+		&_btn
+			font-size: 12px
+		
+	.promo
+		h1
+			font-size: 50px
+	.start
+		&_round
+			margin-left: 20px
+	.mobile
+		&_item
+			width: 300px
+			height: 260px
+	.choise
+		position: relative
+		.car
+			position: absolute
+	.down
+		&_store
+			right: 50%
+			top: 110%
+			transform: translateX(50%)
+		&_social
+			left: 50%
+			top: 85%
+			transform: translateX(-50%)
+
+@media (max-width: 991.97px)			
+	.menu 
+		&_link
+			font-size: 10px
+		&_item
+			padding-right: 8px
+	.subheader
+		.tel
+			font-size: 18px 
+		img
+			width: 100%
+		&_logo_text
+			font-size: 11px
+		&_btn		
+			height: 40px
+	.promo
+		h1
+			font-size: 40px
+	.start
+		&_round		
+			margin-left: -5px
+	.mobile
+		&_item
+			width: 220px
+			height: 200px
+			&_subt
+				font-size: 14px
+			&_plus
+			bottom: 10px
+	.down
+		&_nav
+			&_ul
+				&_high
+					font-size: 9px
+					&:last-child
+						padding-right: 10px
+			&_ul2
+				&_low
+					font-size: 9px
+					&:last-child
+						padding-right: 10px
+		
+@media (max-width: 767.97px)	
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%	
+		width: 50%
+		height: 100vh
+		padding: 20px 15px
+		background: rgba(0,0,0, .8)
+		transition: 0.6s all
+		&_active
+			left: 0
+		&_item
+			padding-right: 0
+			border: none
+			margin: 10px 0
+		&_link
+			font-size: 20px	
+
+	.hamburger
+		display: block	
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background: #fff
+			margin-bottom: 2px
+			transition: 0.5s all
+		&_active
+			span
+				margin-bottom: -2px 
+				&:nth-child(1)
+					transform: translateY(3px) rotate(-45deg)
+				&:nth-child(2)
+					display: none
+				&:nth-child(3)
+					transform: translateY(3px)rotate(45deg)
+	.ex-hidden
+		display: none
+
+	.subheader
+		&_tel
+			display: block
+			font-weight: 400
+			font-size: 16px
+			text-align: center
+			text-transform: uppercase
+			color: #FFFFFF
+			margin-top: -10px
+
+		.xs-invisible
+			display: block
+			justify-content: space-between
+		&_logo
+
+		
+		&_logo_text
+				display: none
+		&_btn
+			display: block
+			/* width: 100% */
+			height: 40px
+			margin: 10px auto 10px 0
+	.start
+		&_round
+			margin-left: 50%
+			transform: translateX(-50%)
+			margin-bottom: 10px
+	
+	.mobile
+		&_item
+			width: 290px
+			height: 254px		
+
+@media (max-width: 575.7px)	
+	.menu
+		width: 85%			
+		&_item
+			width: 100%	
+			text-align: center
+			padding-bottom: 10px
+		&_link
+			display: block
+
+
+
