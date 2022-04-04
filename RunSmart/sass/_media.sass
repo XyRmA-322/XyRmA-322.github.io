@@ -1,51 +1,93 @@
 /* ------header----- */
 @media (max-width: 668px) 
-    .header
-        &__official
-            display: none
-    .promo
-        &__header
-            font-size: 34px
-        &__subheader
-            font-size: 16px
-        &__wrapper
-            align-items: center
+	.header
+		&__official
+			display: none
+	.promo
+		&__header
+			font-size: 34px
+		&__subheader
+			font-size: 16px
+		&__wrapper
+			align-items: center
 @media (max-width: 450px)
-    .header
-        flex-direction: column
-    .button
-        width: 120px
-        &_main
-            width: 250px  
-    .promo
-        &__header
-            font-size: 24px
-        &__subheader
-            display: none
-        &__icons
-            width: 310px
-    .header
-        &__phone
-            font-size: 14px
-            margin-top: 15px
+	.header
+		flex-direction: column
+	.button
+		width: 120px
+		&_main
+			width: 250px
+		&_form
+			width: 100%  
+	.promo
+		&__header
+			font-size: 24px
+		&__subheader
+			display: none
+		&__icons
+			width: 310px
+	.header
+		&__phone
+			font-size: 14px
+			margin-top: 15px
 
 /* ----------benefits------------- */
 @media (max-width: 981.97px) 
-    .benefits
-        &__items
-            width: 100%
-            flex-direction: column
-            align-items: center
-        &__item
-            &:not(:last-child)
-                margin-bottom: 20px
+	.benefits
+		&__items
+			width: 100%
+			flex-direction: column
+			align-items: center
+		&__item
+			&:not(:last-child)
+				margin-bottom: 20px
 @media (max-width: 400.97px) 
-    .benefits
-        padding-top: 40px
-        &__header
-            font-size: 24px
-                
-                
+	.benefits
+		padding-top: 40px
+	.title
+		font-size: 24px
+				
+/* ----------consultation------------- */
+@media (max-width: 682.97px)  
+	.title
+		&_left
+			width: 100%
+			font-size: 24px              
+@media (max-width: 390.97px)  
+	.title
+		&_left
+			font-size: 19px 
+	.consultation
+		&__descr
+			font-size: 15px
+
+/* ----------carousel------------- */
+@media (max-width: 991.97px) 
+	.carousel
+		width: 768px
+		&__inner
+			width: 576px
+@media (max-width: 768.97px) 
+	.carousel
+		width: 576px
+		&__inner
+			width: 576px
+@media (max-width: 768.97px) 
+	.carousel
+		width: 320px
+		&__inner
+			width: 320px		
+
+/* ----------catalog------------- */
+@media (max-width: 600.97px)
+	.catalog
+		&__tabsы
+			flex-direction: column
+		&__tab
+			&:not(:last-child)
+				margin-bottom: 10px
+				
+		&__content
 
 	
 /* @media (max-width: 767.97px)	 */
