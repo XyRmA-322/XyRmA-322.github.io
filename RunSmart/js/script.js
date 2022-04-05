@@ -90,8 +90,43 @@ $(document).ready(function(){
     validateForms('#order-form')
     validateForms('#consultation form')
 
+    $('input[name=tel]').mask("+7 (999) 999-99-99");
+
+    $('form').submit(function(e){
+        e.preventDefault();
+        $.ajax({
+            type:  "POST",
+            url: "mailer/smart.php",
+            data: $(this).serialize()
+        }).done(function(){
+            $(this).find("input").val("");
+            $('#consultation, #order').fadeOut();
+            $('.overlay, #thx').fadeIn('slow');
+            $('form').trigger('reset');
+        });
+        return false;
+    });
+
+
+   //pageup
+
+   $(window).scroll(function(){
+        if($(this).scrollTop() > 1600){
+            $('.pageup').fadeIn();
+        } else
+        {
+            $('.pageup').fadeOut();
+        }
+   });
+
+   $("a[href=#up]").click(function(){
+        var _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        return false;
+   });
+   new WOW().init();
 
   });  
-
+ 
 
 
