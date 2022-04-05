@@ -1,0 +1,42 @@
+.container{
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.header{
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0, 0.7);
+    padding: 20px;
+}
+.header__phone{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+.header__phone:hover{
+        color: #9b9797;
+        text-decoration: underline;
+        transform: translateY(-50%) scale(1.1);
+}
+.promo{
+    width: 100%;
+    display: flex;
+    justify-content:  center;
+    background-color: #F6F6F6;
+    align-items: center;
+}
+.promo__finish{
+
+    margin-right: 100px;
+}
