@@ -1,0 +1,37 @@
+.tech
+	img
+		height: 280px
+.portfolio
+	min-height: 100vh
+	background: #e6e6e6
+	width: 100%
+	//position: sticky
+	position: relative
+	top: 0
+	padding-top: 90px 
+	padding-bottom: 80px
+	h2
+		position: absolute 
+		left: 50%
+		top: 90px
+		transform: translateX(-50%)
+		text-align: center
+		+before_circle
+		&::before
+			width: 165px 
+			height: 48px
+			transform: translate(-32px, -12px)
+	&__subtitle
+		margin-top: 50px
+		text-align: center
+		font-weight: 700
+		font-size: 36px
+		line-height: 60px
+	&__wrapper
+		display: grid
+		grid-template-columns: repeat(4, 1fr)
+		grid-template-row: repeat(4, minmax(200px, auto))
+		gap: 5px
+		margin-top: 120px
+		img
+			width: 100%

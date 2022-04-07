@@ -1,0 +1,103 @@
+.resume
+	min-height: 100vh
+	background: #e6e6e6
+	width: 100%
+	//position: sticky
+	position: relative
+	top: 0
+	padding-top: 90px 
+	
+	h2
+		position: absolute 
+		left: 50%
+		top: 90px
+		transform: translateX(-50%)
+		text-align: center
+		+before_circle
+		&::before
+			width: 110px 
+			height: 48px
+			transform: translate(-32px, -12px)
+	&__subtitle
+		
+		margin-top: 50px
+		text-align: center
+		
+		font-weight: 700
+		font-size: 36px
+		line-height: 60px
+
+	&__column
+		ul
+			list-style-type: none 
+			li
+				position: relative
+				&::after
+					content: ""
+					width: 1px
+					height: 100%
+					background: #000	
+					position: absolute
+					top: -7px
+					left: 0
+					
+
+	&__wrapper
+		padding: 160px 65px 0 65px
+		display: grid
+		grid-template-columns: repeat( 2, 425px )
+		column-gap: 135px
+		h3
+			padding-left: 35px
+			position: relative
+			margin: 0
+			font-weight: 700
+			font-size: 20px
+			line-height: 30px
+			&::before
+				content: ""
+				position: absolute
+				width: 15px
+				height: 15px
+				background: $main-color
+				border-radius: 100%
+				left: -7px
+				top: 50%
+				transform: translateY(-50%)
+		h4
+			margin: 0
+			font-weight: 700
+			font-size: 14px
+			line-height: 21px
+
+	&__item
+		position: relative
+		&::before
+			content: ""
+			position: absolute
+			height: 1px
+			width: 45px
+			left: 0
+			top: 66px
+			background: #000
+
+		&-loc
+			font-weight: 500
+			font-size: 12px
+			line-height: 18px
+		&-head
+			position: relative
+			padding: 45px 0 0 100px
+		&-body
+			padding-top: 12px
+			padding-left: 43px
+			font-weight: 500
+			font-size: 12px
+			line-height: 18px
+		&-icon
+			position: absolute
+			top: 53px
+			left: 45px
+			height: 26px
+
+		 

@@ -1,0 +1,48 @@
+.skill
+	min-height: 100vh
+	background: #fff
+	width: 100%
+	//position: sticky
+	position: relative
+	top: 0
+	padding-top: 90px 
+	padding-bottom: 50px
+	h2
+		position: absolute 
+		left: 50%
+		top: 90px
+		transform: translateX(-50%)
+		text-align: center
+		+before_circle
+		&::before
+			width: 110px 
+			height: 48px
+			transform: translate(-21px, -12px)
+	&__subtitle
+		margin-top: 50px
+		text-align: center
+		font-weight: 700
+		font-size: 36px
+		line-height: 60px
+	&__column
+		display: grid
+		grid-template-columns: repeat(4, minmax(250px, 270px))
+		grid-template-row: repeat(2, minmax(270px, auto))
+		//grid-auto-rows: minmax(270px, auto)
+		grid-auto-flow: dense
+		gap: 13px 
+		margin-top: 85px
+		margin-left: 20px
+	&__elem
+		border: 1px solid $main-color
+		padding: 30px 27px 25px 30px 
+		img
+			height: 65px
+		&-title
+			font-weight: 700
+			font-size: 14px
+			line-height: 21px
+		&-descr
+			font-weight: 500
+			font-size: 12px
+			line-height: 18px
