@@ -1,0 +1,234 @@
+//-------promo--------
+@media (max-width: 564.97px)
+	.promo
+		padding-top: 200px
+		&__social
+			display: none
+		&__name
+			font-size: 14px
+			span
+				font-size: 25px
+	.round
+		&::before
+			width: 415px
+	.title
+		&-fz48
+			font-size: 34px
+
+@media (max-width: 462.97px)
+	.promo
+		
+		.container
+			padding-left: 0
+		&__name
+			font-size: 12px
+			span
+				font-size: 18px
+		&__btns
+			width: 300px
+		&__btn
+			width: 90px
+	.round
+		&::before
+			width: 315px
+			height: 230px
+			left: -10px
+	.title
+		&-fz48
+			font-size: 26px
+			line-height: 35px
+
+//----------about------
+@media (max-width: 1140.97px)
+	.about
+		&__foto
+			img
+				max-height: 400px
+		&__grid
+			align-items: start
+			//width: 80%
+		&__descr
+			width: 80%
+		&__item
+			width: 300px
+			//flex-direction: column
+			//justify-content: flex-start
+@media (max-width: 1000.97px)
+	.about
+		&__grid
+			width: 50%
+			grid-column: 1
+			grid-row: 4
+			grid-template-rows: 84px 150px 136px
+		&__descr
+			height: 100%
+		&__flex
+			width: 300px
+			flex-direction: column
+			justify-content: flex-start
+		&__item
+			margin-bottom: 30px
+@media (max-width: 870.97px)
+	.about
+		padding-top: 15px
+		&__foto
+			img
+				max-height: 300px
+		h2
+			top: 25px
+		&__items
+			margin-left: 30px
+			flex-direction: column
+			justify-content: flex-start
+		&__flex
+			width: 400px
+			flex-direction: row
+			justify-content: flex-start
+
+@media (max-width: 492.97px)
+	.about
+		&__foto
+			img
+				max-height: 200px
+		h2
+			top: 25px
+		&__items
+			width: 300px
+			margin-left: 30px
+			flex-direction: column
+			justify-content: flex-start
+		&__flex
+			width: 400px
+			flex-direction: row
+			justify-content: flex-start
+		&__grid
+			grid-template-rows: 84px 170px 136px
+		&__it
+			h3
+				font-size: 25px
+				line-height: 36px
+		&__descr
+			font-size: 14px
+			line-height: 16px
+		&__item
+			margin-right: 10px
+			img
+				margin: 5px 10px 0 
+@media (max-width: 440.97px)
+	.about
+		&__flex
+			width: 300px
+			flex-direction: column
+			justify-content: flex-start
+//----------resume------
+@media (max-width: 1070.97px)	
+	.resume
+		&__wrapper
+			grid-template-columns: repeat( 1, 425px )	
+		&__subtitle
+			position: absolute
+			margin-left: 50vw
+			transform: translateX(-50%)	
+@media (max-width: 870.97px)
+	.resume
+		h2
+			top: 25px
+		&__subtitle
+			margin-top: 0px
+		&__wrapper
+			padding: 100px 20px
+@media (max-width: 706.97px)
+	.resume
+		&__subtitle
+			font-size: 26px
+			line-height: 45px	
+
+@media (max-width: 505.97px)
+	.resume
+		&__wrapper
+			grid-template-columns: repeat( 1, 300px )	
+@media (max-width: 365.97px)
+	.resume
+		&__wrapper
+			grid-template-columns: repeat( 1, 240px )	
+//----------skill------
+@media (max-width: 1170.97px)
+	.skill
+		&__column
+			grid-template-columns: repeat(3, minmax(250px, 270px))
+			grid-template-row: repeat(3, minmax(270px, auto))
+@media (max-width: 1070.97px)	
+	.skill	
+		h2
+			top: 25px
+		&__subtitle
+			position: absolute
+			margin: 0
+			margin-left: 50vw
+			top: 90px
+			transform: translateX(-50%)	
+			
+@media (max-width: 870.97px)
+	.skill
+		&__subtitle
+			margin-top: 0px
+		&__column
+			grid-template-columns: repeat(2, minmax(250px, 270px))
+			grid-template-row: repeat(4, minmax(270px, auto))
+
+@media (max-width: 706.97px)
+	.skill
+		&__subtitle
+			font-size: 26px
+			line-height: 45px	
+@media (max-width: 588.97px)
+	.skill
+		&__subtitle
+			font-size: 25px
+			line-height: 35px	
+		&__column
+			grid-template-columns: repeat(1, minmax(250px, 270px))
+			grid-template-row: repeat(6, minmax(270px, auto))
+//----------portfolio------
+@media (max-width: 1145.97px)
+	.portfolio
+		&__wrapper
+			padding-left: 10px
+			align-content: center
+			grid-template-columns: repeat(1, 400px)
+			margin: 100px auto 0
+
+@media (max-width: 1070.97px)	
+	.portfolio	
+		h2
+			top: 25px
+		&__subtitle
+			position: absolute
+			margin: 0
+			margin-left: 50vw
+			top: 90px
+			transform: translateX(-50%)	
+			
+@media (max-width: 870.97px)
+	.portfolio
+		&__subtitle
+			margin-top: 0px
+
+@media (max-width: 706.97px)
+	.portfolio
+		&__subtitle
+			font-size: 26px
+			line-height: 45px	
+@media (max-width: 588.97px)
+	.portfolio
+		&__subtitle
+			font-size: 25px
+			line-height: 35px	
+@media (max-width: 425.97px)
+	.portfolio
+		&__wrapper
+			padding-left: 10px
+			align-content: center
+			grid-template-columns: repeat(1, 280px)
+			margin: 100px auto 0
+		
