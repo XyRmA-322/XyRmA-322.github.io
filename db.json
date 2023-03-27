@@ -1,0 +1,129 @@
+{
+  "ads": [
+    {
+      "title": "sdsds",
+      "text": "dsdsdsdsdsd",
+      "promo": false,
+      "src": "https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg",
+      "id": "kLQ8BH1"
+    },
+    {
+      "title": "cvc",
+      "text": "cvcvcv",
+      "promo": true,
+      "src": "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
+      "id": "R_N8DG4"
+    },
+    {
+      "title": "dsd",
+      "text": "sdsdsd",
+      "promo": true,
+      "src": "https://cdn.vuetifyjs.com/images/carousel/bird.jpg",
+      "id": "hz-S1BQ"
+    },
+    {
+      "title": "dfd",
+      "text": "fdfdfd",
+      "promo": true,
+      "src": "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
+      "id": "4GJn7hC"
+    },
+    {
+      "title": "cvc",
+      "text": "vcvcvcc",
+      "promo": true,
+      "src": "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
+      "id": "Vcwnbx0"
+    },
+    {
+      "title": "dfdfd",
+      "text": "ff",
+      "promo": true,
+      "src": "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
+      "id": "OPxqpuQ"
+    },
+    {
+      "title": "dfd",
+      "text": "fdfdf",
+      "promo": true,
+      "src": "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
+      "id": "5Mn2sfV"
+    },
+    {
+      "title": "bvb",
+      "text": "vbvb",
+      "promo": true,
+      "src": "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
+      "id": "sqfxU0Z"
+    },
+    {
+      "title": "vbv",
+      "text": "bvbvb",
+      "promo": true,
+      "src": "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
+      "id": "azE5Emw"
+    }
+  ],
+  "users": [
+    {
+      "name": "Ivan",
+      "email": "test@mail.ru",
+      "password": "123456",
+      "id": "1"
+    },
+    {
+      "name": "ford",
+      "email": "sds@sdsd.sdd",
+      "password": "223323",
+      "id": "3bMb7W3"
+    },
+    {
+      "email": "Test@r.er",
+      "name": "Vasya",
+      "password": "eXGmhQ2NPTfSi3Y",
+      "id": "g6QWITi"
+    },
+    {
+      "email": "ivan@mail.ru",
+      "name": "vanya",
+      "password": "123456",
+      "id": "I4CLM7G"
+    },
+    {
+      "email": "test@mail.ru",
+      "name": "вав",
+      "password": "123456",
+      "id": "Dx8Ji75"
+    },
+    {
+      "email": "test@mail.ru",
+      "name": "вав",
+      "password": "123456",
+      "id": "pBFuYxo"
+    },
+    {
+      "email": "test@mail.ru",
+      "name": "gfgf",
+      "password": "123456",
+      "id": "0v1kT3p"
+    },
+    {
+      "email": "test@mail.ru",
+      "name": "hg",
+      "password": "123456",
+      "id": "tnFtrZa"
+    },
+    {
+      "email": "test@mail.ru",
+      "name": "dfd",
+      "password": "123456",
+      "id": "SCooPkA"
+    },
+    {
+      "email": "tecvst@mail.ru",
+      "name": "cv",
+      "password": "123456",
+      "id": "FbnmUz_"
+    }
+  ]
+}
