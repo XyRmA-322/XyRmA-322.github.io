@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "CSGO Market Helper",
+  "version": "1.0",
+  "description": "Мониторинг цен CSGO",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open My App"
+  },
+  "minimum_chrome_version": "88"
+}
